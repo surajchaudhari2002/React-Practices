@@ -21,6 +21,7 @@ import { BioProvider } from "./hooks/ContextAPI";
 import { Home } from "./hooks/ContextAPI/Home";
 import { About } from "./hooks/ContextAPI/About";
 import { UseRef } from "./hooks/useRef/";
+import { UseReducer } from "./hooks/useReducer/UseReducer";
  const App=()=>{
   return (
   <>
@@ -47,7 +48,8 @@ import { UseRef } from "./hooks/useRef/";
       <Home/>
       <About/>
     </BioProvider> */}
-    <UseRef/>
+    {/* <UseRef/> */}
+    <UseReducer/>
   
 
 
